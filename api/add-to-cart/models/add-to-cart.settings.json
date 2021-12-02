@@ -56,14 +56,6 @@
       "type": "string",
       "default": "40%",
       "required": true
-    },
-    "Fertile": {
-      "type": "string",
-      "default": "70%",
-      "required": true
-    },
-    "Categories": {
-      "type": "string"
     }
   }
 }
