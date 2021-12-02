@@ -1,0 +1,69 @@
+{
+  "kind": "collectionType",
+  "collectionName": "add_to_carts",
+  "info": {
+    "name": "Add To Cart",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Name": {
+      "type": "string",
+      "default": "Banana Tree",
+      "required": true
+    },
+    "Price": {
+      "type": "integer",
+      "default": 50,
+      "required": true
+    },
+    "Size": {
+      "type": "string",
+      "default": "Medium",
+      "required": true
+    },
+    "About": {
+      "type": "string",
+      "default": "Proactively fabricat a  impactful outsourcing after equity invested relation .Repeated to applications usually would be a waste.",
+      "required": true
+    },
+    "image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": true,
+      "pluginOptions": {}
+    },
+    "Temp": {
+      "type": "string",
+      "default": "20c",
+      "required": true
+    },
+    "Light": {
+      "type": "string",
+      "default": "60%",
+      "required": true
+    },
+    "Water": {
+      "type": "string",
+      "default": "40%",
+      "required": true
+    },
+    "Fertile": {
+      "type": "string",
+      "default": "70%",
+      "required": true
+    },
+    "Categories": {
+      "type": "string"
+    }
+  }
+}
