@@ -22,20 +22,12 @@
       "default": 24,
       "required": true
     },
-    "Image": {
-      "model": "file",
-      "via": "related",
-      "allowedTypes": [
-        "files",
-        "images",
-        "videos"
-      ],
-      "plugin": "upload",
-      "required": false,
-      "pluginOptions": {}
-    },
     "userId": {
       "type": "biginteger",
+      "required": true
+    },
+    "Image": {
+      "type": "string",
       "required": true
     }
   }
