@@ -60,6 +60,9 @@
     "Fertile": {
       "type": "string",
       "required": true
+    },
+    "categoriesId": {
+      "type": "integer"
     }
   }
 }
