@@ -1,0 +1,8 @@
+{
+"provider": "cloudinary",
+    "providerOptions": {
+    "cloud_name": "arslanvirk",
+    "api_key": "385394425878655",
+    "api_secret": "teLACHLqTGlnGKrWpuS7Qomrj7o"
+  }
+}
