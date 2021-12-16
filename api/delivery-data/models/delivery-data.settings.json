@@ -1,0 +1,48 @@
+{
+  "kind": "collectionType",
+  "collectionName": "delivery_data",
+  "info": {
+    "name": "DeliveryData",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Name": {
+      "type": "string",
+      "required": true
+    },
+    "Email": {
+      "type": "string",
+      "required": true
+    },
+    "PhoneNo": {
+      "type": "biginteger",
+      "required": true
+    },
+    "Address": {
+      "type": "string",
+      "required": true
+    },
+    "City": {
+      "type": "string",
+      "required": true
+    },
+    "PostalCode": {
+      "type": "biginteger",
+      "required": true
+    },
+    "ProductId": {
+      "type": "biginteger",
+      "required": true
+    },
+    "UserId": {
+      "type": "biginteger",
+      "required": true
+    }
+  }
+}
