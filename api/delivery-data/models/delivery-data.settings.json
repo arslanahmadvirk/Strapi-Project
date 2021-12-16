@@ -36,10 +36,6 @@
       "type": "biginteger",
       "required": true
     },
-    "ProductId": {
-      "type": "biginteger",
-      "required": true
-    },
     "UserId": {
       "type": "biginteger",
       "required": true
