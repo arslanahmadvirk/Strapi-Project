@@ -39,6 +39,9 @@
     "UserId": {
       "type": "biginteger",
       "required": true
+    },
+    "Itemid": {
+      "type": "biginteger"
     }
   }
 }
