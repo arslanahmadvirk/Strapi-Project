@@ -63,6 +63,9 @@
     },
     "Categories": {
       "type": "string"
+    },
+    "Type": {
+      "type": "string"
     }
   }
 }
