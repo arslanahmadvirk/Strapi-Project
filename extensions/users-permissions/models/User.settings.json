@@ -73,6 +73,9 @@
     },
     "cart": {
       "model": "cart"
+    },
+    "image": {
+      "type": "string"
     }
   }
 }
