@@ -1,8 +1,8 @@
 {
   "kind": "collectionType",
-  "collectionName": "add_to_carts",
+  "collectionName": "products",
   "info": {
-    "name": "Add To Cart",
+    "name": "Products",
     "description": ""
   },
   "options": {

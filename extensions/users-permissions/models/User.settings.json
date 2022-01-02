@@ -71,11 +71,20 @@
       "type": "biginteger",
       "required": true
     },
-    "cart": {
-      "model": "cart"
-    },
     "Image": {
       "type": "text"
+    },
+    "Cart": {
+      "collection": "cart",
+      "via": "user"
+    },
+    "Messages": {
+      "collection": "messages",
+      "via": "user"
+    },
+    "Shipping_Orders": {
+      "via": "user",
+      "collection": "delivery-data"
     }
   }
 }

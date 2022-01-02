@@ -1,6 +1,6 @@
 {
   "kind": "collectionType",
-  "collectionName": "carts",
+  "collectionName": "cart",
   "info": {
     "name": "Cart",
     "description": ""
@@ -22,16 +22,14 @@
       "default": 24,
       "required": true
     },
-    "userId": {
-      "type": "biginteger",
-      "required": true
-    },
     "Image": {
       "type": "string",
       "required": true
     },
-    "Itemid": {
-      "type": "biginteger"
+    "user": {
+      "via": "Cart",
+      "plugin": "users-permissions",
+      "model": "user"
     }
   }
 }

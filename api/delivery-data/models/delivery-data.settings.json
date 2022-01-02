@@ -2,7 +2,7 @@
   "kind": "collectionType",
   "collectionName": "delivery_data",
   "info": {
-    "name": "DeliveryData",
+    "name": "Shipping Order",
     "description": ""
   },
   "options": {
@@ -36,12 +36,22 @@
       "type": "biginteger",
       "required": true
     },
-    "UserId": {
-      "type": "biginteger",
+    "user": {
+      "via": "Shipping_Orders",
+      "plugin": "users-permissions",
+      "model": "user"
+    },
+    "totalPrice": {
+      "type": "integer",
       "required": true
     },
-    "Itemid": {
-      "type": "biginteger"
+    "Shipping_Products": {
+      "via": "Shipping_Order",
+      "collection": "shipping-products"
+    },
+    "Shipment_Status": {
+      "type": "string",
+      "default": "Pending"
     }
   }
 }

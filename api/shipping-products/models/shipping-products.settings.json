@@ -1,8 +1,8 @@
 {
   "kind": "collectionType",
-  "collectionName": "messages",
+  "collectionName": "shipping_products",
   "info": {
-    "name": "Messages",
+    "name": "Shipping Products",
     "description": ""
   },
   "options": {
@@ -12,22 +12,21 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "Name": {
+    "productName": {
       "type": "string",
       "required": true
     },
-    "Subject": {
+    "productPrice": {
+      "type": "integer",
+      "required": true
+    },
+    "productImage": {
       "type": "string",
       "required": true
     },
-    "Message": {
-      "type": "text",
-      "required": true
-    },
-    "user": {
-      "via": "Messages",
-      "plugin": "users-permissions",
-      "model": "user"
+    "Shipping_Order": {
+      "via": "Shipping_Products",
+      "model": "delivery-data"
     }
   }
 }
